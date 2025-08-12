@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const CONCURRENCY = Number(process.env.CONCURRENCY) || 10;
 const RECIPE_REFRESH_INTERVAL = 1000 * 60 * 60 * 12;
 const BAZAAR_REFRESH_INTERVAL = 1000 * 60 * 1;
-const PRICE_CACHE_TTL = 1000 * 60 * 1; 
+const PRICE_CACHE_TTL = 1000 * 60 * 2; 
 
 let db;
 
